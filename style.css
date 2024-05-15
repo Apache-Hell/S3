@@ -1,0 +1,230 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: #07799D;
+    height: 10vh;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    /*  background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;*/
+
+}
+
+h1 {
+    color:white;
+    position: absolute; 
+    left: 0px;
+    top: 0;
+    line-height: 10vh;
+    background-image:url(images/logo.png);
+    background-repeat: no-repeat;
+   
+    background-position:top left;
+    background-size: contain;
+    
+    height: 10vh;
+    text-indent:15vw;
+
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;   
+    
+}
+header li {
+    margin-right:4vw;
+    display:inline
+}
+header a {
+    color:white;
+    text-decoration:none;
+
+}
+header a:hover {
+    text-decoration: underline;
+
+}
+
+.Upload {
+    background-color: antiquewhite;
+    color:white;
+    height:60vh;
+    background-image: url("images/lightbluebackground.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    margin: 2px 0 2px;
+    
+}
+.Upload h2 {
+    font-size: 2rem;
+    color:#07799D;
+    margin: 20px 20px 10px;
+}
+.Upload p {
+    color:#07799D;
+    font-size: 1rem;
+    margin: 10px 20px 10px;
+    
+}
+
+.Upload button {
+   color:#07799D;
+   text-decoration: none;
+   border: 1px solid #ACACAC;
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin: 0 60px 20px 0;
+   align-items: center;
+   border-radius: 5px;
+   cursor: pointer;
+   float:right;
+}
+#Transcript {
+    background-color: #bcd8dac6;
+    -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    box-shadow: inset 2px 2px 2px 2px 0px #dddddd;
+    border: 1px solid #07799D;
+    font-size: 18px;
+    color:#07799D;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70vw;
+    height: 50vh;
+    overflow: auto;
+}
+.AudioInput {
+    width: 25%;
+    
+}
+.TranscriptOutput {
+    width: 75%;
+}
+
+.Summary {
+    background-color: #485652;
+    color:white;
+    height:25vh;
+    display:flex;
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    align-items: center;
+    
+    /*line-height: 1.8em;*/
+    margin: 2px 0 2px;
+}
+.Summary h2 {
+    font-size: 2rem;
+    color:white;
+    margin: 20px 20px 10px;
+}
+.Summary p {
+    font-size: 1rem; 
+    color:white;
+    margin: 10px 20px 10px;
+}
+.Summary button {
+    color:#485652;
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 60px 20px 0;
+    float: right;
+    cursor: pointer;
+}
+
+#SummaryOutput {
+    background-color:#768a8451;
+    -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    box-shadow: inset 2px 2px 2px 2px 0px #dddddd;
+    border: 1px solid #949d9a;
+    font-size: 18px;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70vw;
+    height: 16vh;
+    overflow: auto;
+}
+
+.Summarize {
+    width: 25%;
+}
+
+footer {
+    background-color: #000;
+    color: #b7b7b7;
+    height:4vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+
+.voicetotext {
+    background-color: #07799D;
+    color:white;
+    height:80vh;
+    background-image: url("images/lightbluebackground.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column  ;
+    /*flex-direction: column;*/
+    align-items: center;
+    margin: 5px 0 5px;
+    padding: 5%;
+}
+#converttext{
+    width: 60vw;
+    height:50vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    font-size: 1rem;
+}
+.button{
+    width: 130px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #07799D;
+    box-shadow: inset 2px 2px 2px 0px #dddddd;
+    background-color: hsla(194, 91%, 32%, 0.6);
+    color: white;
+
+}
+.button:hover{
+    background-color: #07799D;
+    color: white;
+}
+.button:active{
+    background-color: hsla(194, 91%, 32%, 0.6);
+    color: white;
+}
+/* Responsive design */
+
