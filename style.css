@@ -240,6 +240,7 @@ footer {
 
 #transcriptInput {
     margin: 30px 30px 30px 30px;
+    width:90%; /* Adjust this value to change the width of the textbox */
     resize: both; /* Allows the user to resize the textbox both horizontally and vertically */
     overflow: auto; /* Required for resize to work */
 }
