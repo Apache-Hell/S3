@@ -134,7 +134,7 @@ summarize.addEventListener("click", async function (e) {
     text,
   };
   if (text?.trim() !== "") {
-    const url = "http://127.0.0.1:8000/speech-to-text/speech/";
+    const url = "http://3.104.75.67:8081/speech-to-text/speech/";
     try {
       const response = await fetch(url, {
         method: "POST",
