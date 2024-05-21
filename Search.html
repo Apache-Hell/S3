@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
-    <title>HEAR IT SEE IT</title>
+    <title>Summary Search</title>
     <!-- Include the CSS file for the adaptable framework -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>SpeakSense Synth</h1>
+        <h1>Summary Search</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Back</a></li>
@@ -17,23 +17,23 @@
             </ul>
     </header>
     
-    <div class="voicetotext">
-        <!-- Add a textarea for the transcript output-->
-        <textarea id="converttext"></textarea>
+    <div class="transcript-search">
+        <!-- Add a input field for keyword search -->
+        <input type="text" id="keywordInput" placeholder="Enter keyword..."/>
         <!-- Add a button for submission -->
         <div class="buttons">
-            <button class ="button" id = "clicktoconvert"> Record </button>
-            <button class ="button" id = "stop"> Stop </button>
-            <button class ="button" id = "download"> Download </button>
-            <button class= "button" id = "summarize"> Summarize </button>
+            <button class="button center-button" id="searchButton">Search</button>
         </div>
+        <!-- Add a div for search results -->
+        <div id="searchResults"></div>
+        <!-- Add a textarea for the transcript input-->
+        <textarea id="transcriptInput" placeholder="Found transcripts here..."></textarea>
     </div>
 
     <!-- Include the JavaScript file for the adaptable framework -->
-    <script src="VoicetoText.js"></script>
+    <script src="TranscriptSearch.js"></script>
 </body>
 <footer>
-    <p>Copyright © 2024 SpeechTranscript All Rights Reserved.</p>
+    <p>Copyright © 2024 SpeechtoTranscript All Rights Reserved.</p>
 </footer>
-
 </html>

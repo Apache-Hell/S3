@@ -16,7 +16,9 @@ body{
     color: #333;
     margin: 0;
     padding: 0;*/
-
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1 {
@@ -176,6 +178,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
+    margin-top: auto;
     
 }
 
@@ -225,6 +228,27 @@ footer {
 .button:active{
     background-color: hsla(194, 91%, 32%, 0.6);
     color: white;
+}
+
+#keywordInput {
+    margin: 50px 30px 10px 30px;
+    width: 90%; /* Adjust this value to change the width of the textbox */
+    height: 30px; /* Adjust this value to change the height of the textbox */
+    resize: horizontal; /* Allows the user to resize the textbox horizontally */
+    overflow: auto; /* Required for resize to work */
+}
+
+#transcriptInput {
+    margin: 30px 30px 30px 30px;
+    width:90%; /* Adjust this value to change the width of the textbox */
+    resize: both; /* Allows the user to resize the textbox both horizontally and vertically */
+    overflow: auto; /* Required for resize to work */
+}
+
+.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Responsive design */
 
