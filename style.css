@@ -1,17 +1,15 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
-header{
-    background-color: #07799D;
+header {
+    background-color: #07799d;
     height: 10vh;
     width: 100%;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    
-    
+    font-family: "Times New Roman", Times, serif, sans-serif;
 }
-body{
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+body {
+    font-family: "Times New Roman", Times, serif, sans-serif;
     /*  background-color: #f7f7f7;
     color: #333;
     margin: 0;
@@ -22,88 +20,82 @@ body{
 }
 
 h1 {
-    color:white;
-    position: absolute; 
+    color: white;
+    position: absolute;
     left: 0px;
     top: 0;
     line-height: 10vh;
-    background-image:url(images/logo1.png);
+    background-image: url(images/logo1.png);
     background-repeat: no-repeat;
-   
-    background-position:top left;
-    background-size: contain;
-    
-    height: 10vh;
-    text-indent:15vw;
 
+    background-position: top left;
+    background-size: contain;
+
+    height: 10vh;
+    text-indent: 15vw;
 }
 header ul {
     position: absolute;
     right: 5vw;
     top: 0;
-    line-height: 80px;   
-    
+    line-height: 80px;
 }
 header li {
-    margin-right:4vw;
-    display:inline
+    margin-right: 4vw;
+    display: inline;
 }
 header a {
-    color:white;
-    text-decoration:none;
-
+    color: white;
+    text-decoration: none;
 }
 header a:hover {
     text-decoration: underline;
-
 }
 
 .Upload {
     background-color: antiquewhite;
-    color:white;
-    height:60vh;
+    color: white;
+    height: 60vh;
     background-image: url("images/lightbluebackground.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display:flex;
+    display: flex;
     /*flex-direction: column;*/
     align-items: center;
     margin: 2px 0 2px;
-    
 }
 .Upload h2 {
     font-size: 2rem;
-    color:#07799D;
+    color: #07799d;
     margin: 20px 20px 10px;
 }
 .Upload p {
-    color:#07799D;
+    color: #07799d;
     font-size: 1rem;
     margin: 10px 20px 10px;
-    
 }
 
 .Upload button {
-   color:#07799D;
-   text-decoration: none;
-   border: 1px solid #ACACAC;
-   padding: 10px 20px;
-   border-radius: 5px;
-   margin: 0 60px 20px 0;
-   align-items: center;
-   border-radius: 5px;
-   cursor: pointer;
-   float:right;
+    color: #07799d;
+    text-decoration: none;
+    border: 1px solid #acacac;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 60px 20px 0;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
 }
 #Transcript {
     background-color: #bcd8dac6;
     -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
     -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
     box-shadow: inset 2px 2px 2px 2px 0px #dddddd;
-    border: 1px solid #07799D;
+    border: 1px solid #07799d;
     font-size: 18px;
-    color:#07799D;
+    color: #07799d;
     padding: 10px;
     border-radius: 10px;
     width: 70vw;
@@ -112,7 +104,6 @@ header a:hover {
 }
 .AudioInput {
     width: 25%;
-    
 }
 .TranscriptOutput {
     width: 75%;
@@ -120,30 +111,30 @@ header a:hover {
 
 .Summary {
     background-color: #485652;
-    color:white;
-    height:25vh;
-    display:flex;
+    color: white;
+    height: 25vh;
+    display: flex;
     /*flex-direction: column;*/
     /*justify-content: center;*/
     align-items: center;
-    
+
     /*line-height: 1.8em;*/
     margin: 2px 0 2px;
 }
 .Summary h2 {
     font-size: 2rem;
-    color:white;
+    color: white;
     margin: 20px 20px 10px;
 }
 .Summary p {
-    font-size: 1rem; 
-    color:white;
+    font-size: 1rem;
+    color: white;
     margin: 10px 20px 10px;
 }
 .Summary button {
-    color:#485652;
+    color: #485652;
     text-decoration: none;
-    border: 1px solid #ACACAC;
+    border: 1px solid #acacac;
     padding: 10px 20px;
     border-radius: 5px;
     margin: 0 60px 20px 0;
@@ -152,13 +143,13 @@ header a:hover {
 }
 
 #SummaryOutput {
-    background-color:#768a8451;
+    background-color: #768a8451;
     -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
     -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
     box-shadow: inset 2px 2px 2px 2px 0px #dddddd;
     border: 1px solid #949d9a;
     font-size: 18px;
-    color:white;
+    color: white;
     padding: 10px;
     border-radius: 10px;
     width: 70vw;
@@ -173,33 +164,32 @@ header a:hover {
 footer {
     background-color: #000;
     color: #b7b7b7;
-    height:4vh;
-    display:flex;
+    height: 4vh;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
     margin-top: auto;
-    
 }
 
 .voicetotext {
-    background-color: #07799D;
-    color:white;
-    height:80vh;
+    background-color: #07799d;
+    color: white;
+    height: 80vh;
     background-image: url("images/lightbluebackground.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display:flex;
-    flex-direction: column  ;
+    display: flex;
+    flex-direction: column;
     /*flex-direction: column;*/
     align-items: center;
     margin: 5px 0 5px;
     padding: 5%;
 }
-#converttext{
+#converttext {
     width: 60vw;
-    height:50vh;
+    height: 50vh;
     margin: 0 auto;
     padding: 20px;
     background-color: #f7f7f7;
@@ -207,7 +197,7 @@ footer {
     box-shadow: 0 0 10px 0 #000;
     font-size: 1rem;
 }
-.button{
+.button {
     width: 130px;
     margin: 30px;
     padding: 10px;
@@ -215,17 +205,16 @@ footer {
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
-    border: 2px solid #07799D;
+    border: 2px solid #07799d;
     box-shadow: inset 2px 2px 2px 0px #dddddd;
     background-color: hsla(194, 91%, 32%, 0.6);
     color: white;
-
 }
-.button:hover{
-    background-color: #07799D;
+.button:hover {
+    background-color: #07799d;
     color: white;
 }
-.button:active{
+.button:active {
     background-color: hsla(194, 91%, 32%, 0.6);
     color: white;
 }
@@ -240,7 +229,15 @@ footer {
 
 #transcriptInput {
     margin: 30px 30px 30px 30px;
-    width:90%; /* Adjust this value to change the width of the textbox */
+    width: 90%; /* Adjust this value to change the width of the textbox */
+    resize: both; /* Allows the user to resize the textbox both horizontally and vertically */
+    overflow: auto; /* Required for resize to work */
+    height: 300px;
+}
+
+#transcriptResult {
+    margin: 30px 30px 30px 30px;
+    width: 90%; /* Adjust this value to change the width of the textbox */
     resize: both; /* Allows the user to resize the textbox both horizontally and vertically */
     overflow: auto; /* Required for resize to work */
 }
@@ -250,5 +247,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-/* Responsive design */
 
+.textarea-height {
+    height: 300px !important;
+}
+/* Responsive design */
