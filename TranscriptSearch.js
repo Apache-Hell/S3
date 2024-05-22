@@ -22,6 +22,8 @@ searchButton.addEventListener("click", async function (e) {
     const output = document.getElementById("transcriptInput");
     if (result?.length === 0) {
       para.innerHTML = "No results found";
+      output.value = "No content found";
+      output.classList.remove("textarea-height");
     }
     if (result?.length === 1) {
       para.innerHTML = "1 Result found";
