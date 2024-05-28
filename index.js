@@ -135,7 +135,7 @@ Summarybtn.onclick = async function(event){
 async function summarize() {
   const prompt = "Please summarize the following paragraph:" + Transcriptshow.textContent;
   // Replace 'YOUR_API_KEY' with your actual API key
-  const apiKey = 'Milan please add your API key here';
+  const apiKey = 'Please add your Google API key here';
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
   const requestBody = {
   contents: [
