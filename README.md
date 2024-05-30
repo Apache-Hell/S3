@@ -16,30 +16,34 @@ Whisper model and LLM model API are deployed to convert audio to transcript and 
 For data management, a PostgreSQL database is deployed on the Relational Database Service (RDS) of Amazon Web Services (AWS). 
 
 ### 3. Installation
-Pre-requisites
+#### Pre-requisites
+
 Python: This project is built with HTML, CSS, Javascipt, Python 3.12.3
+
 PostgreSQL: This project depends on PostgresSQL database to store data.
-Clone and install
+
+#### Clone and install
+
 Clone the repository: git clone git@github.com:Apache-Hell/S3.git, cd S3
+
 Install dependencies: pip install -r requirements.txt.
+
 Install a local whisper model.
+
 Input Googgle AI API key.
-Usage
+
+#### Usage
+
 Start the PostgreSQL database in RDS server.
+
 Start whisper web API by running S2T.py.
 
-
 ### 4. Code Overview
-Dependencies 
+#### Dependencies 
+
 Flask: For web API 
+
 whisper: For whisper model
 
-
-### 5. Logging
-The project uses Logging for logging. Logs are written to the log file of ETL.log in the log directory.
-
-### 6. Scheduled Task
-No scheduled task.
-
-### 7. Error Handling
+### 5. Error Handling
 Error handling is implemented throughout the project, with errors being logged and, in critical cases, the process exiting with a non-zero status code.
