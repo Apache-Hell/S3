@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <title>HEAR IT SEE IT</title>
+    <!-- Include the CSS file for the adaptable framework -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SpeakSense Synth</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+    </header>
+    
+    <div class="voicetotext">
+        <!-- Add a textarea for the transcript output-->
+        <textarea id="converttext"></textarea>
+        <!-- Add a button for submission -->
+        <div class="buttons">
+            <button class ="button" id = "clicktoconvert"> Record </button>
+            <button class ="button" id = "stop"> Stop </button>
+            <button class ="button" id = "download"> Download </button>
+            <button class= "button" id = "summarize"> Summarize </button>
+        </div>
+    </div>
+
+    <!-- Include the JavaScript file for the adaptable framework -->
+    <script src="VoicetoText.js"></script>
+</body>
+<footer>
+    <p>Copyright © 2024 SpeechTranscript All Rights Reserved.</p>
+</footer>
+
+</html>
