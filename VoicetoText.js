@@ -2,7 +2,7 @@ const clicktoconvert = document.getElementById("clicktoconvert"); // Start the s
 const converttext = document.getElementById("converttext"); // Display the converted text
 const stop = document.getElementById("stop"); // Stop the speech recognition
 const download = document.getElementById("download"); // Download the text as a file
-const summarize = document.getElementById("summarize"); // Summarize the text
+const upload = document.getElementById("upload"); // Summarize the text
 /*clicktoconvert.addEventListener('click', function(){
     var speech = true;
     window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -124,7 +124,11 @@ download.addEventListener("click", function () {
   });
 });
 
-summarize.addEventListener("click", async function (e) {
+converttext.oninput = function(event) {
+  converttext.textContent= event.target.value;
+};
+
+upload.addEventListener("click", async function (e) {
   e.preventDefault();
 
   const text = converttext.innerHTML;
