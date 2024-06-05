@@ -1,9 +1,9 @@
 DATA472 - Group Project: Speech to Text
 
 ### Menbers
-Tao Yan
-Haritha Parthiban
-Sarmilan Vignaraja
+Tao Yan,
+Haritha Parthiban,
+Sarmilan Vignaraja,
 Shivanshu Tandon
 
 ### 1. Introduction
