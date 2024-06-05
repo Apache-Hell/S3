@@ -1,5 +1,11 @@
 DATA472 - Group Project: Speech to Text
 
+### Menbers
+Tao Yan
+Haritha Parthiban
+Sarmilan Vignaraja
+Shivanshu Tandon
+
 ### 1. Introduction
 This project aims to harness the capabilities of Whisper and Large Language Models (LLMs) to transform audio and speech into accurate transcripts. Subsequently, these transcripts will be succinctly summarized. The resulting summaries will then be systematically uploaded to an AWS cloud database, enabling efficient retrieval and search capabilities in the future.
 
